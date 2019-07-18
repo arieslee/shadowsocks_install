@@ -115,7 +115,5 @@ chmod +x bbr.sh
 重新启动之后，输入 lsmod | grep bbr 如果看到 tcp_bbr 就说明 BBR 已经启动了。
 
 再看视频，1080p 超高清，很顺畅不卡顿！
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.shshpin
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 Copyright (C) 2014-2019 Teddysun
