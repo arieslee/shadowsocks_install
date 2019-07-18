@@ -1,15 +1,22 @@
 ![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
 
-shadowsocks.sh
+本脚本适用环境
 ===============
-- Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
-- https://teddysun.com/342.html
+- 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
+- 内存要求：≥128M
 
-shadowsocks-libev.sh
+关于本脚本
 ===============
-- Auto Install Shadowsocks(libev) Server for CentOS
-- https://teddysun.com/357.html
+1、一键安装 Shadowsocks-Python， ShadowsocksR， Shadowsocks-Go， Shadowsocks-libev 版（四选一）服务端；
+
+2、各版本的启动脚本及配置文件名不再重合；
+
+3、每次运行可安装一种版本；
+
+4、支持以多次运行来安装多个版本，且各个版本可以共存（注意端口号需设成不同）；
+
+5、若已安装多个版本，则卸载时也需多次运行（每次卸载一种）；
 
 shadowsocks-libev-debian.sh
 ===============
